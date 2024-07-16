@@ -1,3 +1,26 @@
+@import 'globals';
+@import 'type';
+
 header {
-    
+    position: absolute;
+    width: 100%;
+    background-color: rgba(51, 51, 51, 0.7);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.5rem;
+    img{
+        width: 5rem;
+        height: auto;
+    }
+    nav{
+        display: none;
+    }
+    button{
+        background: none;
+        color: $vulcan-white;
+        border: none;
+        font-size: 2rem;
+        font-family: $roboto-condensed;
+    }
 }
