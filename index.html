@@ -54,26 +54,104 @@
             </section>
     <img src="media/wave-blue-dark.png" alt="dark blue wave">
         </section>
-        <section id="contact-advisor"> <!-- yining -->
-            <h2>Product Advisor</h2>
+        <!-- Yining -->
+        <section id="contact-advisor">
+            <h2>Product Advisor </h2>
             <p>find your project's perfect fit.</p>
+            <div class="product-advisor-line"></div>
+            <!-- form interior -->
             <form action="">
-                <!-- form interior -->
-                 <!-- form button -->
+                <div class="container">
+                    <label for="productType">Product Type</label>
+                    <select id="productType" name="productType">
+                      <option value="#">Select menus</option>
+                      <option value="option1">Option 1</option>
+                      <option value="option2">Option 2</option>
+                      <option value="option3">Option 3</option>
+                    </select>
+                  </div>
+
+                  <div class="container">
+                    <label for="productType">Screen Location</label>
+                    <select id="productType" name="productType" disabled>
+                      <option value="#">Select menus</option>
+                      <option value="option1">Option 1</option>
+                      <option value="option2">Option 2</option>
+                      <option value="option3">Option 3</option>
+                    </select>
+                  </div>
+
+                  <div class="container">
+                    <label for="productType">Flow Type</label>
+                    <select id="productType" name="productType" disabled>
+                      <option value="#">Select menus</option>
+                      <option value="option1">Option 1</option>
+                      <option value="option2">Option 2</option>
+                      <option value="option3">Option 3</option>
+                    </select>
+                  </div>
+
+                  <div class="container">
+                    <label for="productType">Channel Depth</label>
+                    <select id="productType" name="productType" disabled>
+                      <option value="#">Select menus</option>
+                      <option value="option1">Option 1</option>
+                      <option value="option2">Option 2</option>
+                      <option value="option3">Option 3</option>
+                    </select>
+                  </div>
+
+                  <div class="container">
+                    <label for="productType">Channel Width</label>
+                    <select id="productType" name="productType" disabled>
+                      <option value="#">Select menus</option>
+                      <option value="option1">Option 1</option>
+                      <option value="option2">Option 2</option>
+                      <option value="option3">Option 3</option>
+                    </select>
+                  </div>
+                  <!-- form button -->
+                  <div class="product-button-container">
+                    <button>Find My Product</button>
+                  </div>
             </form>
         </section>
-        <section id="about-us"> <!-- yining -->
+        <!-- Yining -->
+        <section id="about-us">
+            <div>
+                <img src="media/bg-section-about-us.jpg" alt="This is bg-section-about-us img">
+
             <!-- same formatting as mission statement -->
-             <h2>delivering clean water...</h2>
-             <p>about...</p>
-             <a href="#">about</a>
+             
+             <h2>Delivering clean safe water since 1975. Refreshing indeed.</h2>
+             <p>Vulcan wastewater screening equipment has played a vital role in protecting the water supply of more than 900 cities and communities throughout the world.</p>
+             <a href="#">About Us</a>
+            </div>
         </section>
         <section id="video"> <!-- laura -->
             <iframe src="#" frameborder="0">video</iframe>
         </section>
-        <section id="newsletter"> <!-- yining -->
-            <form action="">
+        <!-- Yining -->
+        <section id="newsletter">
+            <form action="" class="sign-up-form">
                 <!-- submit email form -->
+                <div class="sign-up-container">
+                    <div class="form-container">
+                      <label for="email" id="newsletter">
+                        Stay in the know. Sign up for our newsletter.
+                      </label>
+                      <div id="email-container">
+                        <input
+                        type="text"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your email"
+                        />
+
+                        <button id="sign-up-button" type="submit">SUBMIT</button>
+                      </div>
+                    </div>
+                  </div>
             </form>
         </section>
         <section id="near-you"> <!-- laura -->
