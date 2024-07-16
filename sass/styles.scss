@@ -1,0 +1,13 @@
+//normalize
+@use './components/normalize';
+
+//globals (use for global variables like color)
+@use './components/globals';
+
+//font type
+@use './components/type';
+
+//local components
+@use './components/header';
+@use './components/hero';
+@use './components/sales-items';
