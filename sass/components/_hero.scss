@@ -1,3 +1,36 @@
-.hero {
-    
+@import 'globals';
+@import 'type';
+
+#hero {
+    background-image: url('../../media/header-slider-img-03.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 6rem;
+    h1{
+        color: $vulcan-white;
+        padding: 0.75rem;
+        text-align: center;
+        font-family: $roboto-condensed;
+        font-weight: $weight-700;
+        text-transform: uppercase;
+        font-size: 1.5rem;
+    }
+    a{
+        display: block;
+        width: fit-content;
+        margin: 1rem auto;
+        text-align: center;
+        padding: 0.5rem;
+        color: $vulcan-white;
+        text-decoration: none;
+        border: 0.5px solid $vulcan-white;
+        font-family: $roboto;
+        font-size: 0.85rem;
+        font-weight: $weight-400;
+        text-transform: uppercase;
+    }
+    img{
+        display: block;
+    }
 }
