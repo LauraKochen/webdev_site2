@@ -1,0 +1,37 @@
+@import 'globals';
+@import 'type';
+
+#newsletter {
+    background-color: $vulcan-blue-light;
+   
+
+    h1 {
+        font-size: 1.2rem;
+        color: $vulcan-blue-dark;
+        text-align: center;
+        font-family: $roboto-condensed; 
+    }
+
+    form {
+ 
+        display: block;
+        margin: 0 auto;
+
+        .form-container {
+            input {
+                border: none;
+                width: 50%;
+                padding: 0.5rem;
+            }
+
+            button {
+                color: $vulcan-white;
+                background-color: $vulcan-blue-medium;
+                padding: 0.5rem; 
+                border: none;
+                font-weight: $weight-700;
+                font-size: 1rem;
+            }
+        }
+    }
+}
