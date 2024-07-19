@@ -13,25 +13,31 @@
     width: 100%;
 
     h1 {
-        font-size: 2rem;
+        font-size: 1.8rem;
+        padding: 1rem;
         padding-top: 6rem;
+        font-family: $roboto-condensed;
+        text-transform: uppercase;
+        
     } 
  
     h2 {
         font-weight: $weight-400;
-        font-size: 1.3rem;
-        padding: 1rem 3rem;
+        font-size: 0.8rem;
+        padding: 1rem 5rem;
+        font-family: $roboto;
     } 
 
     .button {
         a {
             color: $vulcan-white;
             text-decoration: none;
+            font-family: $roboto-condensed;
         }
 
         border: 1.5px solid $vulcan-white;
         padding: 0.5rem 1.8rem;
-        width: 50%;
+        width: 35%;
         display:block;
         margin: 0 auto;
     }
