@@ -1,0 +1,44 @@
+@import 'globals';
+@import 'type';
+
+#about-us {
+    background-image: url("../media/bg-section-about-us.jpg");
+    padding-bottom: 6rem;
+    text-align: center;
+    overflow: hidden;
+    color: $vulcan-white;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+
+    h1 {
+        font-size: 3rem;
+        padding: 1rem 30rem;
+        padding-top: 6rem;
+        font-family: $roboto-condensed;
+        text-transform: uppercase;
+        
+    } 
+ 
+    h2 {
+        font-weight: $weight-400;
+        font-size: 0.8rem;
+        padding: 1rem 33rem;
+        font-family: $roboto;
+    } 
+
+    .button {
+        a {
+            color: $vulcan-white;
+            text-decoration: none;
+            font-family: $roboto-condensed;
+        }
+
+        border: 1.5px solid $vulcan-white;
+        padding: 0.5rem 1.8rem;
+        width: 10%;
+        display:block;
+        margin: 0 auto;
+    }
+}
