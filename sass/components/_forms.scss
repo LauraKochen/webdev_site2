@@ -12,28 +12,33 @@
 }
 
 fieldset {
-  padding-top: 1rem;
   border: none;
 
 }
 
 .productForm,
 .productFormTitle {
-  color: white;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  color: $vulcan-white;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-top: 0;
+  
   h2,
   p {
-    color: white;
+    color: $vulcan-white;
     text-align: center;
   }
   h2 {
-    font-size: 35px;
+    font-size: 25px;
     font-family: $roboto-condensed;
+    text-transform: uppercase;
+    margin: 0;
   }
   p {
     font-size: 15px;
     font-family: $roboto;
+    margin-bottom: 1.5rem;
+    color: $vulcan-white;
   }
 }
 
@@ -43,8 +48,9 @@ label {
 }
 
 #productType {
+  margin-top: 0;
   background-color: $vulcan-white;
-  color: grey;
+  color: $vulcan-grey;
   width: 100%;
   padding: 0.5rem;
   margin-top: 1rem;
@@ -54,14 +60,17 @@ label {
 }
 
 #productType:focus {
-  background-color: white;
+  background-color: $vulcan-white;
 }
 
 .product-button {
   background-color: $vulcan-blue-medium;
   border: none;
-  width: 100%;
-  color: white;
+  width: 92%;
+  color: $vulcan-white;
   padding: 0.5rem;
   margin-top: 2rem;
+  text-transform: uppercase;
+  font-family: $roboto;
+  margin-left: 0.8rem;
 }
