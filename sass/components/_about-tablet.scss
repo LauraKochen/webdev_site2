@@ -1,7 +1,8 @@
 @import 'globals';
 @import 'type';
 
-#about-us {
+@media (min-width: 48em) {
+    #about-us {
     background-image: url("../media/bg-section-about-us.jpg");
     padding-bottom: 6rem;
     text-align: center;
@@ -13,7 +14,7 @@
     width: 100%;
 
     h1 {
-        font-size: 2.4rem;
+        font-size: 1rem;
         padding: 0;
         padding-top: 6rem;
         font-family: $roboto-condensed;
@@ -43,4 +44,5 @@
         display:block;
         margin: 0 auto;
     }
+}
 }
