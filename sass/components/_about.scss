@@ -18,6 +18,8 @@
         padding-top: 6rem;
         font-family: $roboto-condensed;
         text-transform: lowercase;
+        text-transform: uppercase;
+        margin-bottom: 0;
         
     } 
  
@@ -26,6 +28,8 @@
         font-size: 0.8rem;
         padding: 1rem 5rem;
         font-family: $roboto;
+        margin-top: 0;
+        margin-bottom: 2rem;
     } 
 
     .button {
