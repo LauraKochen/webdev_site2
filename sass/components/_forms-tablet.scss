@@ -5,7 +5,9 @@
 #contact-advisor{
     background-color: $vulcan-blue-dark; 
     padding-top:2rem;
-    padding-bottom:3rem;   
+    padding-bottom:3rem; 
+    margin-top: 0;
+    padding-top: 0;  
     form{
         padding-top:2rem;
         border-top: 1px solid white;
@@ -40,12 +42,7 @@ fieldset {
     gap: 10px;
     border: none;
     margin-top: 0;
-    
-
 }
-
-
-
 
 label{ 
     width:100%;
@@ -57,21 +54,19 @@ label{
     color:grey;
     width: 100%;
     padding:0.5rem; 
-    
-     
     background-repeat: no-repeat;
     background-position: right; 
 }
 
 #productType:focus{
-    background-color: white;
+    background-color: $vulcan-white;
 }
 
 .product-button{ 
     background-color: $vulcan-blue-medium;
     border:none;
     width:96%;
-    color:white;
+    color:$vulcan-white;
     padding:0.5rem;
     margin-top:1rem;
     text-transform: uppercase;
