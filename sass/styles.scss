@@ -19,5 +19,8 @@
 @use './components/about-tablet';
 @use './components/about-desktop';
 @use './components/newsletter-tablet';
-@use './components/newsletter-desktop'
+@use './components/newsletter-desktop';
 
+@use './components/sales-items-tablet';
+@use './components//hero-tablet';
+@use './components/header-tablet';
