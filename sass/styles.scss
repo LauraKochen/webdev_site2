@@ -5,7 +5,7 @@
 @use './components/globals';
 
 //font type
-@use './components/type'; 
+@use './components/type';
 
 //local components
 @use './components/header';
@@ -24,3 +24,5 @@
 @use './components/sales-items-tablet';
 @use './components//hero-tablet';
 @use './components/header-tablet';
+@use './components/footer';
+@use './components/contact';

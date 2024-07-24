@@ -1,0 +1,37 @@
+@import 'globals';
+@import 'type';
+
+#contact {
+
+    .near-you {
+        background-image: url('../media/map.jpg');
+
+    }
+
+    .contact-us {
+        color: $vulcan-white
+    }
+
+
+    background-color: $vulcan-blue-dark;
+
+
+    .crop {
+        overflow: hidden;
+        padding-top: 4rem;
+    }
+
+    .wave {
+        display: block;
+        transform: scaleY(3) scaleX(1.7) translate(11%);
+    }
+
+    a,
+    p,
+    h2 {
+        font-family: $roboto-condensed;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+
+}
