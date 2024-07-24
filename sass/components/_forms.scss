@@ -1,58 +1,76 @@
-@import 'globals';
-@import 'type';
+@import "globals";
+@import "type";
 
-#contact-advisor{
-    background-color: $vulcan-blue-dark; 
-    padding-top:3rem;
-    padding-bottom:3rem;   
-    form{
-        padding-top:2rem;
-        border-top: 1px solid white;
-    }
+#contact-advisor {
+  background-color: $vulcan-blue-dark;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  form {
+    padding-top: 2rem;
+    border-top: 1px solid white;
+  }
 }
 
-.productForm, .productFormTitle{
-    color:white;
-    margin-left:1rem;
-    margin-right:1rem;
-    h2, p{
-        color:white;
-        text-align: center; 
-    }
-    h2{
-        font-size: 25px;
-    }
-    p{
-        font-size: 15px;
-    }
-}  
+fieldset {
+  border: none;
 
-label{ 
-    width:100%;
-    font-weight: $weight-700; 
 }
 
-#productType{
-    background-color:$vulcan-white;
-    color:grey;
-    width: 100%;
-    padding:0.5rem; 
-    margin-top: 1rem;
-    margin-bottom:1rem; 
-    background-repeat: no-repeat;
-    background-position: right; 
+.productForm,
+.productFormTitle {
+  color: $vulcan-white;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-top: 0;
+  
+  h2,
+  p {
+    color: $vulcan-white;
+    text-align: center;
+  }
+  h2 {
+    font-size: 25px;
+    font-family: $roboto-condensed;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  p {
+    font-size: 15px;
+    font-family: $roboto;
+    margin-bottom: 1.5rem;
+    color: $vulcan-white;
+  }
 }
 
-#productType:focus{
-    background-color: white;
+label {
+  width: 100%;
+  font-weight: $weight-700;
 }
 
-.product-button{ 
-    background-color: $vulcan-blue-medium;
-    border:none;
-    width:100%;
-    color:white;
-    padding:0.5rem;
-    margin-top:2rem;
+#productType {
+  margin-top: 0;
+  background-color: $vulcan-white;
+  color: $vulcan-grey;
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
+#productType:focus {
+  background-color: $vulcan-white;
+}
+
+.product-button {
+  background-color: $vulcan-blue-medium;
+  border: none;
+  width: 92%;
+  color: $vulcan-white;
+  padding: 0.5rem;
+  margin-top: 2rem;
+  text-transform: uppercase;
+  font-family: $roboto;
+  margin-left: 0.8rem;
+}

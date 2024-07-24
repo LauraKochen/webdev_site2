@@ -1,0 +1,77 @@
+@import 'globals';
+@import 'type';
+
+@media (min-width: 48em) {
+#contact-advisor{
+    background-color: $vulcan-blue-dark; 
+    padding-top:2rem;
+    padding-bottom:3rem; 
+    margin-top: 0;
+    padding-top: 0;  
+    form{
+        padding-top:2rem;
+        border-top: 1px solid white;
+    }
+}
+
+.productForm, .productFormTitle{
+    color:$vulcan-white;
+    margin-left:1rem;
+    margin-right:1rem;
+    h2{
+        color:white;
+        text-align: center; 
+        text-transform: uppercase;
+        margin: 0;
+    }
+    h2{
+        font-size: 38px;
+        font-family: $roboto-condensed;
+    }
+    p{
+        font-size: 25px;
+        font-family: $roboto;
+        color: $vulcan-blue-medium;
+        font-weight: $weight-500;
+    }
+}  
+
+fieldset {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    border: none;
+    margin-top: 0;
+}
+
+label{ 
+    width:100%;
+    font-weight: $weight-700; 
+}
+
+#productType{
+    background-color:$vulcan-white;
+    color:grey;
+    width: 100%;
+    padding:0.5rem; 
+    background-repeat: no-repeat;
+    background-position: right; 
+}
+
+#productType:focus{
+    background-color: $vulcan-white;
+}
+
+.product-button{ 
+    background-color: $vulcan-blue-medium;
+    border:none;
+    width:96%;
+    color:$vulcan-white;
+    padding:0.5rem;
+    margin-top:1rem;
+    text-transform: uppercase;
+    font-family: $roboto;
+    font-weight: $weight-500;
+    margin-left: 14px;
+}
+}
