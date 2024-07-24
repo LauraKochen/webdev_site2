@@ -10,7 +10,7 @@ header {
     justify-content: space-between;
     padding: 0.5rem;
     img{
-        width: 5rem;
+        width: 6rem;
         height: auto;
     }
     nav{
@@ -22,5 +22,8 @@ header {
         border: none;
         font-size: 2rem;
         font-family: $roboto-condensed;
+    }
+    h3{
+        display: none;
     }
 }
