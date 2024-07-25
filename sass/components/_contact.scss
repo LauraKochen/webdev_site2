@@ -3,13 +3,45 @@
 
 #contact {
 
+
     .near-you {
+        text-align: center;
         background-image: url('../media/map.jpg');
+        height: 300px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding-top: 5rem;
+        padding-bottom: 1rem;
+        font-weight: $weight-700;
+
+        a {
+            text-decoration: none;
+            color: $vulcan-grey;
+            width: 30%;
+            border: 1px solid black;
+            padding: .5rem;
+
+        }
 
     }
 
     .contact-us {
-        color: $vulcan-white
+        color: $vulcan-white;
+        text-align: center;
+        padding-top: 3rem;
+        padding-bottom: 1rem;
+        background-color: $vulcan-blue-dark;
+        font-weight: $weight-700;
+
+        a {
+            text-decoration: none;
+            color: $vulcan-white;
+            width: 30%;
+            border: 1px solid $vulcan-white;
+            padding: .8rem;
+
+        }
     }
 
 
@@ -31,7 +63,6 @@
     h2 {
         font-family: $roboto-condensed;
         text-transform: uppercase;
-        text-decoration: none;
     }
 
 }
