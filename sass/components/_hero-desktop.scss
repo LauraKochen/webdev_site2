@@ -1,0 +1,23 @@
+@import 'globals';
+@import 'type';
+
+@media(min-width: 1680px){
+    #hero{
+        h1{
+            font-size: 4rem;
+            margin: 0 20rem;
+            margin-top: 10rem;
+        }
+        .view-flex{
+            padding-top: 5rem;
+            margin: 0 36rem;
+            justify-content: space-around;
+        }
+        a{
+            padding: 0.5rem 2rem;
+        }
+        .slider{
+            margin-top: 1rem;
+        }
+    }
+}

@@ -15,6 +15,31 @@ header {
     }
     nav{
         display: none;
+        position: absolute;
+        top: 3.45rem;
+        left: 0rem;
+        width: 100%;
+        background-color: rgba(71, 71, 71, 0.7);
+
+        ul{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        a{
+            display: block;
+            text-decoration: none;
+            color: $vulcan-white;
+            text-transform: uppercase;
+            font-family: $roboto-condensed;
+            font-size: 1.5rem;
+            padding-left: 1rem;
+        }
+        li:hover{
+            background-color: $vulcan-blue-medium;
+
+        }
     }
     button{
         background: none;
@@ -23,7 +48,7 @@ header {
         font-size: 2rem;
         font-family: $roboto-condensed;
     }
-    h3{
+    a{
         display: none;
     }
 }

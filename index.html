@@ -10,18 +10,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="styles/styles.css">
+    <script defer src="/scripts/scripts.js"></script>
     <title>Document</title>
 </head>
 <body>
     <!--Luke-->
     <header>
-        <h3>Install Map</h3>
-        <h3>Product Literature</h3>
+        <a class="header-top">Install Map</a>
+        <a class="header-top">Product Literature</a>
         <img src="media/logo-white-vulcan.svg" alt="Vulcan Logo">
-        <h3>+1 712-642-2755</h3>
-        <h3>Contact Us</h3>
-        <button href="#">☰</button> <!--gotta change this button-->
-        <nav>
+        <a class="header-top">+1 712-642-2755</a>
+        <a class="header-top">Contact Us</a>
+        <button id="hamburger" href="#" onclick="expandDropdown()">☰</button> <!--gotta change this button-->
+        <nav id="menu-nav">
             <ul>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Products</a></li>
@@ -29,8 +30,8 @@
                 <li><a href="#">Parts</a></li>
                 <li><a href="#">News</a></li>
                 <li><a href="#">Contact</a></li>
-                <li><a href="#">Installation Map</a></li>
-                <li><a href="#">Product Literature</a></li>
+                <li class="tablet-hide"><a href="#">Installation Map</a></li>
+                <li class="tablet-hide"><a href="#">Product Literature</a></li>
             </ul>
         </nav>
     </header>
@@ -39,13 +40,15 @@
         <section id="hero">
             <!-- background image -->
             <h1>We design and fabricate indestructible wastewater screens. Enough said.</h1> <!-- is this an h1? -->
-            <a href="#">View Products</a>
-            <a href="#">View Services</a>
+            <div class="view-flex">
+              <a href="#">View Products</a>
+              <a href="#">View Services</a>
+            </div>
             <!-- image slider -->
               <div class="slider">
-               <span class="dot"></span>
-               <span class="dot"></span>
-               <span class="dot dot-active"></span>
+               <span class="one dot" onclick="updateSliderActive(1)"></span>
+               <span class="two dot" onclick="updateSliderActive(2)"></span>
+               <span class="three dot dot-active" onclick="updateSliderActive(3)"></span>
               </div>
               <div class="crop">
                 <img class="wave" src="/media/wave-white.png" alt="white wave">
