@@ -11,15 +11,15 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        padding-top: 5rem;
-        padding-bottom: 1rem;
+        padding-bottom: 8rem;
         font-weight: $weight-700;
+
 
         a {
             text-decoration: none;
             color: $vulcan-grey;
             width: 30%;
-            border: 1px solid black;
+            border: 1.2px solid $vulcan-grey;
             padding: .5rem;
 
         }
@@ -29,10 +29,13 @@
     .contact-us {
         color: $vulcan-white;
         text-align: center;
-        padding-top: 3rem;
-        padding-bottom: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 8rem;
         background-color: $vulcan-blue-dark;
         font-weight: $weight-700;
+        justify-content: center;
+
+
 
         a {
             text-decoration: none;
@@ -41,11 +44,20 @@
             border: 1px solid $vulcan-white;
             padding: .8rem;
 
+
         }
     }
 
+    h1 {
 
-    background-color: $vulcan-blue-dark;
+        font-size: 1.8rem;
+        padding: 1rem;
+        padding-top: 6rem;
+        font-family: $roboto-condensed;
+        text-transform: lowercase;
+        text-transform: uppercase;
+        margin-bottom: 0;
+    }
 
 
     .crop {
@@ -63,6 +75,7 @@
     h2 {
         font-family: $roboto-condensed;
         text-transform: uppercase;
+        line-height: 2rem;
     }
 
 }

@@ -14,10 +14,12 @@ footer {
         align-items: center;
         width: 100%;
         padding-top: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
 
 
         img {
-            width: 25px;
+            width: 20px;
 
         }
 
@@ -36,5 +38,18 @@ footer {
         text-transform: uppercase;
         color: $vulcan-white;
         text-decoration: none;
+        text-align: center;
+
     }
+}
+
+.copyright {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    font-family: $roboto-condensed;
+    font-weight: $weight-500;
+    text-transform: uppercase;
+    color: $vulcan-white;
+    text-decoration: none;
+    text-align: center;
 }
