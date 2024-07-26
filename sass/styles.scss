@@ -14,13 +14,6 @@
 @use './components/forms';
 @use './components/about';
 @use './components/newsletter';
-@use './components/forms-tablet';
-@use './components/forms-desktop';
-@use './components/about-tablet';
-@use './components/about-desktop';
-@use './components/newsletter-tablet';
-@use './components/newsletter-desktop';
-
 @use './components/sales-items-tablet';
 @use './components//hero-tablet';
 @use './components/hero-desktop';
@@ -29,3 +22,4 @@
 @use './components/contact';
 @use './components/video';
 @use './components/header-desktop';
+@use './components/mixins'; 

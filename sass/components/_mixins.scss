@@ -1,0 +1,27 @@
+@import 'globals';
+
+@mixin about-section {
+    background-image: url("../media/bg-section-about-us.jpg");
+    padding-bottom: 6rem;
+    text-align: center;
+    overflow: hidden;
+    color: $vulcan-white;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+  }
+   
+
+  @mixin button {
+    
+    border: 1.5px solid $vulcan-white; 
+    width: fit-content;
+    display:block;
+    margin: 0 auto;
+}
+
+@mixin flex-row {
+  display: flex;
+  flex-direction: row;
+}

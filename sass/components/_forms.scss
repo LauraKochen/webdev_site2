@@ -1,3 +1,4 @@
+@import "mixins";
 @import "globals";
 @import "type";
 
@@ -13,16 +14,13 @@
 
 fieldset {
   border: none;
-
 }
 
 .productForm,
 .productFormTitle {
   color: $vulcan-white;
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-  margin-top: 0;
-  
+  margin: 0 0.5rem;
+
   h2,
   p {
     color: $vulcan-white;
@@ -48,7 +46,7 @@ label {
 }
 
 #productType {
-  margin-top: 0;
+
   background-color: $vulcan-white;
   color: $vulcan-grey;
   width: 100%;
@@ -73,4 +71,107 @@ label {
   text-transform: uppercase;
   font-family: $roboto;
   margin-left: 0.8rem;
+}
+
+@media (min-width: 48em) {
+  #contact-advisor {
+    padding-top: 2rem;
+    margin-top: 0;
+    padding-top: 0;
+    form {
+      border-top: 1px solid white;
+    }
+  }
+
+  .productForm,
+  .productFormTitle {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    h2 {
+      color: white;
+      text-align: center;
+      text-transform: uppercase;
+      margin: 0;
+    }
+    h2 {
+      font-size: 38px;
+    }
+    p {
+      font-size: 25px;
+      color: $vulcan-blue-medium;
+      font-weight: $weight-500;
+    }
+  }
+
+  fieldset {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    border: none;
+    margin-top: 0;
+  }
+
+  #productType {
+    width: 100%;
+  }
+
+  .product-button {
+    width: 96%;
+    margin-top: 1rem;
+    font-weight: $weight-500;
+    margin-left: 14px;
+  }
+}
+
+@media (min-width: 105em) {
+  #contact-advisor {
+    padding-top: 2rem;
+    form {
+      border-top: 2px solid white;
+    }
+  }
+
+  .productForm,
+  .productFormTitle {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    h2 {
+      color: $vulcan-white;
+      text-align: center;
+      text-transform: uppercase;
+      margin: 0;
+    }
+    h2 {
+      font-size: 45px;
+    }
+    p {
+      font-size: 25px;
+      color: $vulcan-blue-medium;
+      font-weight: $weight-500;
+      margin-top: 0;
+    }
+  }
+
+  fieldset {
+    @include flex-row;
+    gap: 10px;
+    border: none;
+    margin-top: 0;
+  }
+
+  label {
+    text-transform: uppercase;
+    color: $vulcan-white;
+    font-family: $roboto-condensed;
+  }
+
+  #productType {
+    width: 20rem;
+  }
+
+  .product-button {
+    width: 99.5%;
+    margin-top: 1rem;
+    font-weight: $weight-500;
+  }
 }
