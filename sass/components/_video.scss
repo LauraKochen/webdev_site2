@@ -1,0 +1,44 @@
+@import 'globals';
+@import 'type';
+
+#video {
+    background-color: $vulcan-blue-medium;
+    padding: 5rem;
+
+
+
+    // display: flex;
+
+    .video-wrap,
+    .video-border {
+        border: 1rem solid $vulcan-blue-dark;
+        margin: 0 auto;
+        position: relative;
+        // height: 130px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        aspect-ratio: 16/9;
+
+        iframe {
+            background-color: green;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+
+        @media (min-width: 43.75em) {
+            iframe {
+                width: 96%;
+            }
+        }
+
+
+
+
+
+    }
+
+}

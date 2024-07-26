@@ -1,0 +1,55 @@
+@import 'globals';
+@import 'type';
+
+footer {
+
+    background-color: $vulcan-blue-medium ;
+
+
+
+    .logo-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        padding-top: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+
+
+        img {
+            width: 20px;
+
+        }
+
+    }
+
+    .logo {
+        width: 6rem;
+        margin: 0rem auto;
+        display: block;
+
+    }
+
+    a,
+    p {
+        font-family: $roboto-condensed;
+        text-transform: uppercase;
+        color: $vulcan-white;
+        text-decoration: none;
+        text-align: center;
+
+    }
+}
+
+.copyright {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    font-family: $roboto-condensed;
+    font-weight: $weight-500;
+    text-transform: uppercase;
+    color: $vulcan-white;
+    text-decoration: none;
+    text-align: center;
+}
