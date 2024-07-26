@@ -1,0 +1,22 @@
+@import 'globals';
+@import 'type';
+
+@media(min-width: 1680px){
+    header{
+        nav{
+            margin-top: 9rem;
+            ul{
+                max-width: 44rem;
+                
+
+                li{
+                    padding: 1.5rem 2.5rem;
+                }
+            }
+        }
+        img{
+            margin: 0 30rem;
+            width: 12rem;
+        }
+    }
+}
