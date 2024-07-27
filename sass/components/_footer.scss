@@ -10,6 +10,7 @@ footer {
     .logo-container {
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         justify-content: space-around;
         align-items: center;
         width: 100%;
@@ -19,7 +20,7 @@ footer {
 
 
         img {
-            width: 20px;
+            width: 25px;
 
         }
 
@@ -29,6 +30,18 @@ footer {
         width: 6rem;
         margin: 0rem auto;
         display: block;
+
+    }
+
+    .cell-logo {
+        width: 18px;
+        margin-left: 1rem;
+
+    }
+
+    .mail-logo {
+        width: 18px;
+        margin-left: 1rem;
 
     }
 
@@ -52,4 +65,35 @@ footer {
     color: $vulcan-white;
     text-decoration: none;
     text-align: center;
+}
+
+@media(min-width: 768px) {
+    #footer {
+
+
+        display: flex;
+        padding: 0 5rem;
+        padding-bottom: 5rem;
+
+        .logo-container {
+            flex-wrap: nowrap;
+        }
+    }
+
+    .copyright {
+        position: absolute;
+        padding-top: 5rem;
+    }
+
+    footer .logo {
+        width: 10rem;
+        margin-right: 5rem;
+    }
+
+}
+
+
+
+@media(min-width: 1680px) {
+    #footer {}
 }
