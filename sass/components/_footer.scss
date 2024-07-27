@@ -92,7 +92,7 @@ p {
             padding-left: 5rem;
 
             img {
-                width: 25px;
+                width: 1.5rem;
                 margin-right: .5rem;
 
             }
@@ -127,33 +127,41 @@ p {
 @media(min-width: 1680px) {
     #footer {
 
-
+        padding-bottom: 1rem;
         .logo-container {
             flex-wrap: nowrap;
-            padding-left: 31rem;
-            padding-bottom: 5rem;
+            padding-left: 25rem;
+            padding-right: 15rem;
+            padding-bottom: 0rem;
 
         }
 
         .cell-logo {
             width: 14px;
-            margin-left: 5rem;
+            margin-left: 1rem;
 
 
         }
 
         .mail-logo {
             width: 14px;
-            margin-left: 5rem;
+            margin-left: 1rem;
 
 
         }
 
         .copyright {
-            position: absolute;
+            position: relative;
             // padding-top: 5rem;
+            padding: 0;
+            margin-left: 1rem;
 
 
+        }
+        .logo{
+            width: 12rem;
+            margin-left: 10rem;
+            margin-right: 0rem;
         }
     }
 }
