@@ -9,34 +9,28 @@
     .near-you {
         text-align: center;
         background-image: url('../media/map.jpg');
-        height: 300px;
+        height: 400px;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        padding-bottom: 8rem;
+        padding-bottom: 4rem;
         font-weight: $weight-700;
-
-
-
-
 
         h2 {
             color: $vulcan-grey;
             margin-top: 0;
-            padding-top: 5rem;
+            padding: 0 6rem;
+            padding-top: 9rem;
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
         }
-
-
-
         a {
             text-decoration: none;
             color: $vulcan-grey;
             width: 30%;
             border: 1.2px solid $vulcan-grey;
             padding: .5rem;
-
         }
-
     }
 
     .contact-us {
@@ -47,7 +41,9 @@
         font-weight: $weight-700;
         justify-content: center;
 
-
+        h2{
+            padding: 0 4rem;
+        }
 
         a {
             text-decoration: none;
@@ -55,21 +51,16 @@
             width: 30%;
             border: 1px solid $vulcan-white;
             padding: .8rem;
-
         }
     }
-
-
     .crop {
         overflow: hidden;
         padding-top: 4rem;
     }
-
     .wave {
         display: block;
         transform: scaleY(3) scaleX(1.7) translate(11%);
     }
-
     a,
     p,
     h2 {
@@ -77,39 +68,72 @@
         text-transform: uppercase;
         line-height: 2rem;
     }
-
     h2 {
         padding-bottom: 1rem;
     }
-
 }
 
 @media(min-width: 768px) {
     #contact {
-
+        position: relative;
         .wave {
             transform: scaleY(1.5) scaleX(1) translate(0%);
         }
-
         .crop {
             padding-top: 2rem;
-
+            position: absolute;
+            bottom: 0rem;
         }
-
         .contact-flex {
             display: flex;
             flex-direction: row-reverse;
         }
-
         .contact-us,
         .near-you {
             flex-grow: 1;
 
+            a{
+                background-color: $vulcan-blue-medium;
+                color: $vulcan-white;
+                border: none;
+            }
+            h2{
+                margin-bottom: 0rem;
+            }
+        }
+        .contact-us{
+            padding-bottom: 0;
+            h2{
+                padding-top: 4rem;
+                padding-bottom: 0.5rem;
+            }
+        }
+        .near-you{
+            h2{
+                padding-top: 8rem;
+            }
         }
     }
 }
 
 
 @media(min-width: 1680px) {
-    #contact {}
+    #contact {
+
+        .no-break{
+            display: none;
+        }
+        .contact-us, .near-you{
+            padding-top: 0rem;
+            padding-bottom: 11rem;
+            h2{
+                padding-top: 8rem;
+                margin-top: 0rem;
+                padding-bottom: 3rem;
+            }
+            a{
+                padding: 0.5rem 1rem;
+            }
+        }
+    }
 }
