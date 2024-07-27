@@ -32,3 +32,15 @@ function expandDropdown() {
     hamburgerButton.innerHTML = dropdownExpanded ? "☰" : "✕";
     dropdownExpanded = !dropdownExpanded;
 }
+
+
+//this only works in debug mode
+// addEventListener("resize", (event => {
+//     if (screen.width >= 768) {
+//         dropdownMenu.style.display = "block";
+//     } else {
+//         dropdownMenu.style.display = "none";
+//         hamburgerButton.innerHTML = "☰";
+//         dropdownExpanded = false;
+//     }
+// }));

@@ -61,3 +61,48 @@
         transform: scaleY(3) scaleX(1.7) translate(15%);
     }
 }
+
+@media(min-width: 768px){
+    #sales-items{
+        h2{
+            font-size: 2rem;
+            color: $vulcan-blue-dark;
+        }
+        .items-flex-box{
+            display: flex;
+            margin: 1rem;
+        }
+        section {
+            display: block;
+            border: none;
+            padding: 0;
+            margin: 0 auto;
+            
+            h3{
+                margin: 0;
+                text-align: center;
+                width: 100%;
+                color: $vulcan-blue-medium;
+                font-size: 1.5rem;
+                padding: 0 1rem;
+                height: 3rem;
+            }
+            img{
+                margin-left: 0;
+                width: 100%;
+                margin-bottom: 1rem;
+                padding: 0.5rem;
+            }
+            a{
+                display: block;
+                font-family: $roboto;
+                color: $vulcan-grey;
+                text-align: center;
+                margin-top: 1rem;
+            }
+        }
+        .wave{
+        transform: scaleY(1.5) scaleX(1) translate(0%);
+        }
+    }
+}
