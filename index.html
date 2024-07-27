@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="styles/styles.css">
-    <script defer src="/scripts/scripts.js"></script>
+    <script defer src="scripts/scripts.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -177,32 +177,26 @@
 
          
         <section id="video">            
-           <div class="video-wrap video-border"><iframe src="https://player.vimeo.com/video/183929811?h=46d7273d42&title=0&byline=0&portrait=0"  frameborder=".625rem" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div> 
+           <div class="video-wrap">
+            <iframe src="https://player.vimeo.com/video/183929811?h=46d7273d42&title=0&byline=0&portrait=0"
+            frameborder=".625rem" 
+            allowfullscreen></iframe>
+          </div> 
           
         </section>
         <!-- Yining -->
         <section id="newsletter">
-            <form action="" class="sign-up-form">
-                <!-- submit email form -->
-                <div class="sign-up-container">
-                    <div class="form-container">
-                      <label for="email" id="newsletter">
-                        Stay in the know. Sign up for our newsletter.
-                      </label>
-                      <div id="email-container">
-                        <input
-                        type="text"
-                        id="email"
-                        name="email"      
-                        placeholder="Enter your email"
-                        />
-
-                        <button id="sign-up-button" type="submit">SUBMIT</button> 
-                      </div>
-                    </div>
-                  </div>
-            </form>
+          <h2 for="email" id="newsletter">
+            Stay in the know. Sign up for our newsletter.
+          </h2>
+    
+          <form action="" class="sign-up-form">
+            <!-- submit email form -->
+              <input type="text" id="email" name="email" placeholder="Enter your email" />
+              <button id="sign-up-button" type="submit">SUBMIT</button>
+          </form>
         </section>
+
 
         <section id="contact">
 <div class="contact-flex">
