@@ -3,6 +3,8 @@
 
 #contact {
 
+    background-color: $vulcan-blue-dark;
+
 
     .near-you {
         text-align: center;
@@ -13,6 +15,17 @@
         background-position: center;
         padding-bottom: 8rem;
         font-weight: $weight-700;
+
+
+
+
+
+        h2 {
+            color: $vulcan-grey;
+            margin-top: 0;
+            padding-top: 5rem;
+        }
+
 
 
         a {
@@ -29,9 +42,8 @@
     .contact-us {
         color: $vulcan-white;
         text-align: center;
-        padding-top: 1rem;
-        padding-bottom: 8rem;
-        background-color: $vulcan-blue-dark;
+        padding-top: 2.4rem;
+        padding-bottom: 2rem;
         font-weight: $weight-700;
         justify-content: center;
 
@@ -44,19 +56,7 @@
             border: 1px solid $vulcan-white;
             padding: .8rem;
 
-
         }
-    }
-
-    h1 {
-
-        font-size: 1.8rem;
-        padding: 1rem;
-        padding-top: 6rem;
-        font-family: $roboto-condensed;
-        text-transform: lowercase;
-        text-transform: uppercase;
-        margin-bottom: 0;
     }
 
 
@@ -78,4 +78,38 @@
         line-height: 2rem;
     }
 
+    h2 {
+        padding-bottom: 1rem;
+    }
+
+}
+
+@media(min-width: 768px) {
+    #contact {
+
+        .wave {
+            transform: scaleY(1.5) scaleX(1) translate(0%);
+        }
+
+        .crop {
+            padding-top: 2rem;
+
+        }
+
+        .contact-flex {
+            display: flex;
+            flex-direction: row-reverse;
+        }
+
+        .contact-us,
+        .near-you {
+            flex-grow: 1;
+
+        }
+    }
+}
+
+
+@media(min-width: 1680px) {
+    #contact {}
 }
