@@ -3,7 +3,14 @@
 
 footer {
 
-    background-color: $vulcan-blue-medium ;
+    background-color: $vulcan-blue-medium;
+    // added this below:
+    // display: flex;
+    // align-items: center;
+    // justify-content: space-between;
+    // padding: 0 5 rem;
+
+
 
 
 
@@ -19,42 +26,47 @@ footer {
         padding-right: 1rem;
 
 
-        img {
-            width: 25px;
 
-        }
 
     }
 
-    .logo {
-        width: 6rem;
-        margin: 0rem auto;
-        display: block;
+
+    img {
+        width: 25px;
 
     }
 
-    .cell-logo {
-        width: 18px;
-        margin-left: 1rem;
-
-    }
-
-    .mail-logo {
-        width: 18px;
-        margin-left: 1rem;
-
-    }
-
-    a,
-    p {
-        font-family: $roboto-condensed;
-        text-transform: uppercase;
-        color: $vulcan-white;
-        text-decoration: none;
-        text-align: center;
-
-    }
 }
+
+.logo {
+    width: 6rem;
+    margin: 0rem auto;
+    display: block;
+
+}
+
+.cell-logo {
+    width: 18px;
+    margin-left: 1rem;
+
+}
+
+.mail-logo {
+    width: 18px;
+    margin-left: 1rem;
+
+}
+
+a,
+p {
+    font-family: $roboto-condensed;
+    text-transform: uppercase;
+    color: $vulcan-white;
+    text-decoration: none;
+    text-align: center;
+
+}
+
 
 .copyright {
     padding-bottom: 1rem;
@@ -72,13 +84,31 @@ footer {
 
 
         display: flex;
-        padding: 0 5rem;
-        padding-bottom: 5rem;
+        padding: 0 2rem;
+        padding-bottom: 3rem;
 
         .logo-container {
             flex-wrap: nowrap;
+            padding-left: 5rem;
+
+            img {
+                width: 25px;
+                margin-right: .5rem;
+
+            }
         }
     }
+
+    .cell-logo {
+        width: 14px;
+
+    }
+
+    .mail-logo {
+        width: 14px;
+
+    }
+
 
     .copyright {
         position: absolute;
@@ -95,5 +125,36 @@ footer {
 
 
 @media(min-width: 1680px) {
-    #footer {}
+    #footer {
+
+
+        .logo-container {
+            flex-wrap: nowrap;
+            padding-left: 31rem;
+            padding-bottom: 5rem;
+
+        }
+
+        .cell-logo {
+            width: 14px;
+            margin-left: 5rem;
+
+
+        }
+
+        .mail-logo {
+            width: 14px;
+            margin-left: 5rem;
+
+
+        }
+
+        .copyright {
+            position: absolute;
+            // padding-top: 5rem;
+            padding-right: 10rem;
+
+        }
+
+    }
 }
