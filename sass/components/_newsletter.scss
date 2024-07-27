@@ -1,31 +1,29 @@
+// @import "mixins";
 @import 'globals';
 @import 'type';
 
 #newsletter {
     background-color: $vulcan-blue-light;
-   
-
-    h1 {
+    label {
         font-size: 1.2rem;
         color: $vulcan-blue-dark;
         text-align: center;
         font-family: $roboto-condensed; 
-        padding-top: 1rem;
         font-weight: $weight-500;
-    }
+    } 
 
     form {
  
         display: block;
         margin: 0 auto;
-
-            padding: 1rem;
+        padding: 1rem;
             input {
-                border: 1px solid white;
+                border: 1px solid $vulcan-white;
                 width: 70%;
                 padding: 0.5rem;
                 padding-left: 1rem;
                 font-family:$roboto;
+                margin-top: 1rem;
             }
 
             button {
@@ -85,7 +83,6 @@
       }
     }
   }
-
 
   @media (min-width: 105em) {
     #newsletter {

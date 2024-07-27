@@ -43,10 +43,12 @@ fieldset {
 label {
   width: 100%;
   font-weight: $weight-700;
+  font-family: $roboto-condensed;
 }
 
 #productType {
-
+  
+  font-family: $roboto-condensed;
   background-color: $vulcan-white;
   color: $vulcan-grey;
   width: 100%;
