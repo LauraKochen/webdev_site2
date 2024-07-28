@@ -5,7 +5,7 @@ let i = 0;
 let prevDot = 2;
 function updateSliderTimer() {
     i++;
-    heroSlider.style.backgroundImage = `url('../media/header-slider-img-0${i}.jpg')`;
+    heroSlider.style.backgroundImage = `url('media/header-slider-img-0${i}.jpg')`;
     dotSlider[i - 1].classList.add("dot-active");
     dotSlider[prevDot].classList.remove("dot-active");
     prevDot = i - 1;
@@ -15,7 +15,7 @@ function updateSliderTimer() {
 }
 
 function updateSliderActive(dot) {
-    heroSlider.style.backgroundImage = `url('../media/header-slider-img-0${dot}.jpg')`;
+    heroSlider.style.backgroundImage = `url('media/header-slider-img-0${dot}.jpg')`;
     dotSlider[dot - 1].classList.add("dot-active");
     dotSlider[prevDot].classList.remove("dot-active");
     prevDot = dot - 1;
