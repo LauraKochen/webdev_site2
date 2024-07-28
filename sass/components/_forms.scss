@@ -46,7 +46,8 @@ label {
   font-family: $roboto-condensed;
 }
 
-#productType {
+#productType,
+.productType {
   
   font-family: $roboto-condensed;
   background-color: $vulcan-white;
@@ -59,7 +60,8 @@ label {
   background-position: right;
 }
 
-#productType:focus {
+#productType:focus,
+.productType:focus {
   background-color: $vulcan-white;
 }
 
