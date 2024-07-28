@@ -115,7 +115,8 @@ label {
     margin-top: 0;
   }
 
-  #productType {
+  #productType,
+  .productType {
     width: 100%;
   }
 
@@ -169,7 +170,8 @@ label {
     font-family: $roboto-condensed;
   }
 
-  #productType {
+  #productType,
+  .productType {
     width: 20rem;
   }
 

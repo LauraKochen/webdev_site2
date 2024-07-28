@@ -53,7 +53,7 @@ header {
     }
 }
 
-@media(min-width: 768px){
+@media(min-width: 48em){
     header{
         align-items: start;
         background-color: rgba(71, 71, 71, 0);
@@ -127,7 +127,7 @@ header {
     }
 }
 
-@media(min-width: 1680px){
+@media(min-width: 105em){
     header{
         nav{
             margin-top: 6rem;
