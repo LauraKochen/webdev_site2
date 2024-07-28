@@ -2,7 +2,7 @@
 @import "globals";
 @import "type";
 
-#newsletter {
+.newsletter {
   background-color: $vulcan-blue-light;
   padding: 0.3rem 0.5rem;
   h2 {
@@ -40,7 +40,10 @@
 }
 
 @media (min-width: 48em) {
-  #newsletter {
+  section.newsletter{
+    margin: 0 auto;
+  }
+  .newsletter {
     margin: 0;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -59,7 +62,7 @@
 }
 
 @media (min-width: 105em) {
-  #newsletter {
+  .newsletter {
     margin: 0;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
