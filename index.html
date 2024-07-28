@@ -19,9 +19,9 @@
         <a class="header-top">Install Map</a>
         <a class="header-top">Product Literature</a>
         <img src="media/logo-white-vulcan.svg" alt="Vulcan Logo">
-        <a class="header-top"><svg class="cell-logo" fill="#fff" xmlns="http://www.w3.org/2000/svg" alt="Cell Phone Logo" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm3.445 17.827c-3.684 1.684-9.401-9.43-5.8-11.308l1.053-.519 1.746 3.409-1.042.513c-1.095.587 1.185 5.04 2.305 4.497l1.032-.505 1.76 3.397-1.054.516z"/></svg>+1 712-642-2755</a>
-        <a class="header-top"><svg class="mail-logo" fill = "#fff" xmlns="http://www.w3.org/2000/svg" alt=" mail logo" width="24" height="24" viewBox="0 0 24 24"><path d="M12 .02c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.99 6.98l-6.99 5.666-6.991-5.666h13.981zm.01 10h-14v-8.505l7 5.673 7-5.672v8.504z"/></svg>Contact Us</a>
-        <button id="hamburger" href="#" onclick="expandDropdown()">☰</button> <!--gotta change this button-->
+        <a class="header-top"><svg class="cell-logo" fill="#fff" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm3.445 17.827c-3.684 1.684-9.401-9.43-5.8-11.308l1.053-.519 1.746 3.409-1.042.513c-1.095.587 1.185 5.04 2.305 4.497l1.032-.505 1.76 3.397-1.054.516z"/></svg>+1 712-642-2755</a>
+        <a class="header-top"><svg class="mail-logo" fill = "#fff" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 .02c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.99 6.98l-6.99 5.666-6.991-5.666h13.981zm.01 10h-14v-8.505l7 5.673 7-5.672v8.504z"/></svg>Contact Us</a>
+        <button id="hamburger" onclick="expandDropdown()">☰</button> <!--gotta change this button-->
         <nav id="menu-nav">
             <ul>
                 <li><a href="#">About</a></li>
@@ -51,7 +51,7 @@
                <span class="three dot dot-active" onclick="updateSliderActive(3)"></span>
               </div>
               <div class="crop">
-                <img class="wave" src="/media/wave-white.png" alt="white wave">
+                <img class="wave" src="media/wave-white.png" alt="white wave">
               </div>
         </section>
         <!--Luke-->
@@ -60,22 +60,22 @@
             <p>Just as no two treatment plants are the same, no two of our screening, grit handling or sludge thickening products are either. We'll help determine exactly what you need.</p>
             <div class="items-flex-box">
               <section>
-                <img src="/media/machine-01-300x274.png" alt="machine 01"></img>
+                <img src="media/machine-01-300x274.png" alt="machine 01">
                 <h3>Screening</h3>
                 <a href="#">View Selection</a>
               </section>
               <section>
-                <img src="/media/machine-02-300x274.png" alt="machine 02">
+                <img src="media/machine-02-300x274.png" alt="machine 02">
                 <h3>Screenings handling</h3>
                 <a href="#">View Selection</a>
               </section>
               <section>
-                <img src="/media/machine-03-300x274.png" alt="machine 03">
+                <img src="media/machine-03-300x274.png" alt="machine 03">
                 <h3>Grit handling</h3>
                 <a href="#">View Selection</a>
               </section>
               <section class="final">
-                <img src="/media/machine-04-300x274.png" alt="machine 04">
+                <img src="media/machine-04-300x274.png" alt="machine 04">
                 <h3>Sludge thickening</h3>
                 <a href="#">View Selection</a>
               </section>
@@ -92,7 +92,7 @@
             <div class="product-advisor-line"></div>
           </div>
             <!-- form interior -->
-            <form class="productForm" action="">
+            <form class="productForm" action="post">
                 <fieldset>
                   <div class="container">
                     <label for="productType">Product Type</label>
@@ -105,8 +105,8 @@
                   </div>
 
                   <div class="container">
-                    <label for="productType">Screen Location</label>
-                    <select id="productType" name="productType" disabled>
+                    <label for="screenLocation">Screen Location</label>
+                    <select class="productType" id="screenLocation" name="productType" disabled>
                       <option value="#">Select</option>
                       <option value="option1">Option 1</option>
                       <option value="option2">Option 2</option>
@@ -115,8 +115,8 @@
                   </div>
 
                   <div class="container">
-                    <label for="productType">Flow Type</label>
-                    <select id="productType" name="productType" disabled>
+                    <label for="flowType">Flow Type</label>
+                    <select class="productType" id="flowType" name="productType" disabled>
                       <option value="#">Select</option>
                       <option value="option1">Option 1</option>
                       <option value="option2">Option 2</option>
@@ -125,8 +125,8 @@
                   </div>
 
                   <div class="container">
-                    <label for="productType">Channel Depth</label>
-                    <select id="productType" name="productType" disabled>
+                    <label for="channelDepth">Channel Depth</label>
+                    <select class="productType" id="channelDepth" name="productType" disabled>
                       <option value="#">Select</option>
                       <option value="option1">Option 1</option>
                       <option value="option2">Option 2</option>
@@ -135,14 +135,15 @@
                   </div>
 
                   <div class="container">
-                    <label for="productType">Channel Width</label>
-                    <select id="productType" name="productType" disabled>
+                    <label for="channelWidth">Channel Width</label>
+                    <select class="productType" id="channelWidth" name="productType" disabled>
                       <option value="#">Select</option>
                       <option value="option1">Option 1</option>
                       <option value="option2">Option 2</option>
                       <option value="option3">Option 3</option>
                     </select>
-                  </fieldset>
+                  </div>
+                </fieldset>
               
                   <!-- form button -->
                   <div class="product-button-container">
@@ -179,18 +180,17 @@
         <section id="video">            
            <div class="video-wrap">
             <iframe src="https://player.vimeo.com/video/183929811?h=46d7273d42&title=0&byline=0&portrait=0"
-            frameborder=".625rem" 
             allowfullscreen></iframe>
           </div> 
           
         </section>
         <!-- Yining -->
         <section id="newsletter">
-          <h2 for="email" id="newsletter">
+          <h2>
             Stay in the know. Sign up for our newsletter.
           </h2>
     
-          <form action="" class="sign-up-form">
+          <form action="post" class="sign-up-form">
             <!-- submit email form -->
               <input type="text" id="email" name="email" placeholder="Enter your email" />
               <button id="sign-up-button" type="submit">SUBMIT</button>
@@ -199,7 +199,7 @@
 
 
         <section id="contact">
-<div class="contact-flex">
+          <div class="contact-flex">
              <div class="near-you"> <!-- laura -->
             <!-- same button background image structure as hero -->
                 <h2>Installed in<br>a City Near You</h2>    
@@ -229,17 +229,15 @@
       <div class="logo-container">
         <img src="media/icon-white-facebook.png" alt="Facebook logo">
         <img src="media/icon-white-linkedin.png" alt="LinkedIn Logo">
-        <svg class="cell-logo" fill="#fff" xmlns="http://www.w3.org/2000/svg" alt="Cell Phone Logo" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm3.445 17.827c-3.684 1.684-9.401-9.43-5.8-11.308l1.053-.519 1.746 3.409-1.042.513c-1.095.587 1.185 5.04 2.305 4.497l1.032-.505 1.76 3.397-1.054.516z"/></svg>
-        <a href="Contact Us">+1 712-642-2755</a>
-        <svg class="mail-logo" fill = "#fff" xmlns="http://www.w3.org/2000/svg" alt=" mail logo" width="24" height="24" viewBox="0 0 24 24"><path d="M12 .02c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.99 6.98l-6.99 5.666-6.991-5.666h13.981zm.01 10h-14v-8.505l7 5.673 7-5.672v8.504z"/></svg>
-        <a href="tel:+1 712-642-2755">CONTACT US</a>
+        <svg class="cell-logo" fill="#fff" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm3.445 17.827c-3.684 1.684-9.401-9.43-5.8-11.308l1.053-.519 1.746 3.409-1.042.513c-1.095.587 1.185 5.04 2.305 4.497l1.032-.505 1.76 3.397-1.054.516z"/></svg>
+        <a href="#">+1 712-642-2755</a>
+        <svg class="mail-logo" fill = "#fff" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 .02c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.99 6.98l-6.99 5.666-6.991-5.666h13.981zm.01 10h-14v-8.505l7 5.673 7-5.672v8.504z"/></svg>
+        <a href="#">CONTACT US</a>
 
         <div class="copyright">
            <p>Copyright 2017. All Rights Reserved</p>
         </div>
     </div>
-    
-      </section>
     </footer>
 </body>
 </html>
